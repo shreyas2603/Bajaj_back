@@ -18,7 +18,7 @@ function App() {
       const parsedJson = JSON.parse(jsonInput);
 
       // Call the backend API (replace with your actual API endpoint)
-      fetch('http://127.0.0.1:5000/bfhl', {
+      fetch('https://bajaj-backend-57wn.onrender.com/bfhl', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
